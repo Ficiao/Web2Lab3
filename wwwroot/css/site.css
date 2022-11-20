@@ -1,0 +1,126 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+/* OVDJE DOLAZI TVOJ DIO */
+/*Main Data Table */
+.mainTable {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#table {
+    margin: 5px auto;
+}
+
+#tableRounds {
+    margin: 5px auto;
+    width: 60%;
+}
+
+#tableComments {
+    margin: 5px auto;
+    width: 60%;
+}
+
+table tr {
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+}
+
+table tr:hover {
+    background-color: lightpink;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+/*Data Update Button */
+.updateBtn {
+    text-align: center;
+}
+
+.updateBtn button {
+    background-color: red;
+    padding: 5px 10px;
+    border: 1px solid black;
+    color: white;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.updateBtn button:hover {
+    background: lightgray;
+    color: black;
+    transition: .5s;
+}
+
+/*Data Update Table*/
+.editTable {
+    display: none;
+    padding-top: 20px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.editRowBtn {
+    background-color: #0DC143;
+    color: white;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.editRowBtn:hover {
+    background-color: lightgray;
+    color: black;
+    transition: .5s;
+}
